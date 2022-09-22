@@ -10,9 +10,10 @@ function App() {
     <Router>
       <div className='Container'>
         <Header nome="Adrieli" />
-        <Routes>
+        {/* <Routes>
           <Route path='/servico' element={<Servico />} />
-        </Routes>
+        </Routes> */}
+        <Servico />
         <Footer />
       </div>
     </Router>
