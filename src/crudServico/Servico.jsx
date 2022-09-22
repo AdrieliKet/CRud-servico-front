@@ -73,8 +73,7 @@ export default function ServicoFunction() {
         });
     }
         return (
-            <div>
-               <h1>Cadastro de usuário</h1>
+            <div className="formulario">
                 <form onSubmit={handleSubmit}>
                     <div>
                         <label className="form-label">Nome Cliente</label>
@@ -107,10 +106,10 @@ export default function ServicoFunction() {
                     <br />
                     
                     <input type="submit" className="btn btn-success" value="Cadastrar" /> &nbsp;&nbsp; 
-                    <input type="button" className="btn btn-primary" value="Limpar" onClick={limpar} /> &nbsp;&nbsp; <br /> <br />
+                    <input type="button" className="btn btn-primary" value="Limpar" onClick={limpar} /> &nbsp;&nbsp; <br /> <hr/> <br /> 
                     <input type="button" className="btn btn-secondary" value="Listar Todos" onClick={listarTodos} /> &nbsp;&nbsp;
                     <input type="button" className="btn btn-primary" value="Pagamentos Pendentes" onClick={pagamentoPendente} /> &nbsp;&nbsp;
-                    <input type="button" className="btn btn-secondary" value="Serviços Cancelados" onClick={servicosCancelados} /> &nbsp;&nbsp;
+                    <input type="button" className="btn btn-secondary" value="Serviços Cancelados" onClick={servicosCancelados} /> &nbsp;&nbsp; <br /> <br /> 
 
                </form>
 
